@@ -1,0 +1,131 @@
+# =========================================================
+# CodeIgniter 4 - Production Ready .gitignore
+# =========================================================
+
+# -----------------------------
+# Environment Files
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Composer
+# -----------------------------
+/vendor/
+/composer.phar
+
+# -----------------------------
+# Node / Frontend
+# -----------------------------
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+/pnpm-lock.yaml
+
+# -----------------------------
+# Build / Frontend Assets
+# -----------------------------
+/public/build
+/public/hot
+/public/assets/build
+
+# -----------------------------
+# Writable Directory
+# IMPORTANT:
+# Keep writable/ structure but ignore runtime files
+# -----------------------------
+/writable/cache/*
+!/writable/cache/index.html
+
+/writable/debugbar/*
+!/writable/debugbar/index.html
+
+/writable/logs/*
+!/writable/logs/index.html
+
+/writable/session/*
+!/writable/session/index.html
+
+/writable/uploads/*
+!/writable/uploads/index.html
+
+/writable/tmp/*
+!/writable/tmp/index.html
+
+/writable/database/*
+!/writable/database/index.html
+
+# -----------------------------
+# PHPUnit / Testing
+# -----------------------------
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+
+# -----------------------------
+# IDE / Editors
+# -----------------------------
+/.vscode/
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Cache Files
+# -----------------------------
+*.cache
+
+# -----------------------------
+# Backup Files
+# -----------------------------
+*.bak
+*.sql
+*.sqlite
+*.sqlite3
+
+# -----------------------------
+# Xdebug / Coverage
+# -----------------------------
+/coverage/
+/build/
+
+# -----------------------------
+# Temporary Files
+# -----------------------------
+*.tmp
+*.temp
+
+# -----------------------------
+# CI/CD
+# -----------------------------
+.php-cs-fixer.cache
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-compose.override.yml
+
+# -----------------------------
+# Sensitive Keys / Certificates
+# -----------------------------
+*.pem
+*.key
+*.crt
+
+# -----------------------------
+# Optional Upload Ignore
+# Uncomment if storing uploads locally
+# -----------------------------
+# /public/uploads/

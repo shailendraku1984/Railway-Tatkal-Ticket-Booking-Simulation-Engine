@@ -1,0 +1,9 @@
+{
+    "total_requests": 300,
+    "confirmed": 300,
+    "rac": 0,
+    "waiting": 0,
+    "failed": 0,
+    "execution_time_seconds": 5.659,
+    "run_id": "20260621203736_e1f0a1"
+}
